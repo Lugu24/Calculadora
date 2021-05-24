@@ -42,7 +42,7 @@ public class Calculadora{
 			resultado = num1 * num2;
 			break; 
 		case '/': 
-			resultado = num1 / num2;
+			resultado =(float) num1 / (float)num2;
 			break; 
 		default:
 			break; 
